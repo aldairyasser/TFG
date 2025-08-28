@@ -8,8 +8,6 @@ El proyecto combina un **estudio teórico-comparativo** de los algoritmos más r
 ---
 
 ## 📂 Estructura del Repositorio  
-1. 📂 Anteproyecto.pdf
-2. 📄Presentación_TFG.pdf
 3. 📄 TFG.pdf
 4. 📂 Aportacion_practica/
    * LSTM.py
@@ -17,9 +15,9 @@ El proyecto combina un **estudio teórico-comparativo** de los algoritmos más r
    * Comparativa.py
    * Requisitos_previos.txt
    * 📂 CMAPSSData/ 
-5. 📂 Resultados/
-    * Tabla.png
-    * Gráfica.png 
+   * 📂 Resultados/
+     * Tabla.png
+     * Gráfica.png
 
 ---
 
@@ -63,13 +61,13 @@ La parte experimental se centra en predecir la vida útil restante (**RUL**) de 
 | **LSTM**       | 24.36  | 37.34  |
 | **Random Forest** | 27.50  | 38.82  |
 
-![Tabla de resultado](Resultados/Tabla.png)
+![Tabla de resultado](/Aportacion_práctica/Resultados/Tabla.png)
 
 ---
 
 ### 🔎 Gráfica comparativa  
 
-![Comparación LSTM vs RF](Resultados/Gráfica.png)  
+![Comparación LSTM vs RF](/Aportacion_práctica/Resultados/Gráfica.png)  
 
 ***El análisis de los resultados, así como los hallazgos, los desafios a futuro y las conlusiones de las mismas, se encuentran en el TFG.***
 ---
