@@ -1,0 +1,13 @@
+# --------------------------------------------------
+# Librerías necesarias
+# --------------------------------------------------
+numpy
+pandas
+scikit-learn
+tensorflow
+matplotlib
+
+# --------------------------------------------------
+# Dataset
+# --------------------------------------------------
+# NASA C-MAPSS: https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data
