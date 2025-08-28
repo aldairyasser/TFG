@@ -45,17 +45,17 @@ Se observa que **LSTM supera a Random Forest** en precisión para datos secuenci
 ---
 
 ## 📂 Estructura del Repositorio  
-├── 📄 Anteproyecto.pdf
-├── 📄 TFG.pdf
-├── 📂 Aportacion_practica/
-│ ├── LSTM.py
-│ ├── RF.py 
-│ ├── Comparativa.py
-│ ├── Requisitos_previos.txt
-│ └── 📂 CMAPSSData/ 
-├── 📂 Resultados/
-│ ├── Tabla.png
-│ └── Gráfica.png 
+1.  📄 Anteproyecto.pdf
+2. 📄 TFG.pdf
+3. 📂 Aportacion_practica/
+   * LSTM.py
+   * RF.py 
+   * Comparativa.py
+   * Requisitos_previos.txt
+   * 📂 CMAPSSData/ 
+4. 📂 Resultados/
+    * Tabla.png
+    * Gráfica.png 
 
 ---
 
