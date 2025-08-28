@@ -25,7 +25,7 @@ El dataset empleado es **CMAPSS**, proporcionado por el **NASA Prognostics Cente
 
 🔗 [Descargar CMAPSS Dataset](https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data)  
 
-Contiene series temporales de sensores de motores aeronáuticos bajo diferentes condiciones de operación, hasta el fallo, para este caso solo usamos !["train_FD001.txt"](/Aportacion_práctica/CMAPSSData/train_FD001.txt).
+Contiene series temporales de sensores de motores aeronáuticos bajo diferentes condiciones de operación, hasta el fallo, para este caso solo usamos ["train_FD001.txt"](/Aportacion_práctica/CMAPSSData/train_FD001.txt).
 
 ---
 
