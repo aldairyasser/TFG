@@ -19,12 +19,24 @@ Ambos se aplican sobre el dataset **NASA CMAPSS** para la predicción de la **Re
 
 ---
 
+## 💿 Dataset Utilizado  
+
+El dataset empleado es **CMAPSS**, proporcionado por el **NASA Prognostics Center of Excellence (PCoE)**:  
+
+🔗 [Descargar CMAPSS Dataset](https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data)  
+
+Contiene series temporales de sensores de motores aeronáuticos bajo diferentes condiciones de operación, hasta el fallo, para este caso solo usamos !["train_FD001.txt"](/Aportacion_práctica/CMAPSSData/train_FD001.txt).
+
+---
+
 ## 🧑🏽‍💻 Aportación Práctica  
 
 La parte experimental se centra en predecir la vida útil restante (**RUL**) de los motores, comparando la capacidad de generalización de los modelos:  
 
 - **Random Forest (RF):** rápido, interpretable, adecuado para datos tabulares.  
 - **LSTM:** especializado en series temporales, captura patrones complejos en la degradación.  
+
+---
 
 ### 📊 Resultados obtenidos  
 
@@ -35,13 +47,13 @@ La parte experimental se centra en predecir la vida útil restante (**RUL**) de 
 
 ![Tabla de resultado](Resultados/Tabla.png)
 
+---
 
 ### 🔎 Gráfica comparativa  
 
 ![Comparación LSTM vs RF](Resultados/Gráfica.png)  
 
-El análisis de los resultados, así como los hallazgos, los desafios a futuro y las conlusiones de las mismas, se encuentran en el TFG.
-
+### ***El análisis de los resultados, así como los hallazgos, los desafios a futuro y las conlusiones de las mismas, se encuentran en el TFG.***
 ---
 
 ## 📂 Estructura del Repositorio  
@@ -56,16 +68,6 @@ El análisis de los resultados, así como los hallazgos, los desafios a futuro y
 4. 📂 Resultados/
     * Tabla.png
     * Gráfica.png 
-
----
-
-## 💿 Dataset Utilizado  
-
-El dataset empleado es **CMAPSS**, proporcionado por el **NASA Prognostics Center of Excellence (PCoE)**:  
-
-🔗 [Descargar CMAPSS Dataset](https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data)  
-
-Contiene series temporales de sensores de motores aeronáuticos bajo diferentes condiciones de operación, hasta el fallo.
 
 ---
 
