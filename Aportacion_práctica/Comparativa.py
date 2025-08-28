@@ -1,6 +1,6 @@
 # ==========================================
 # APORTE PRÁCTICO - MANTENIMIENTO PREDICTIVO
-# Dataset: NASA CMAPSS (FD001)
+# Dataset: NASA CMAPSS (train_FD001)
 # Modelos: LSTM vs Random Forest
 # ==========================================
 
