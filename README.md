@@ -27,6 +27,8 @@ El dataset empleado es **CMAPSS**, proporcionado por el **NASA Prognostics Cente
 
 Contiene series temporales de sensores de motores aeronáuticos bajo diferentes condiciones de operación, hasta el fallo, para este caso solo usamos ["train_FD001.txt"](/Aportacion_práctica/CMAPSSData/train_FD001.txt).
 
+Las librerias necesarias se encuentran en el los [requisitos_previos.txt](/Aportacion_práctica/requirements.txt)
+
 ---
 
 ## 🧑🏽‍💻 Aportación Práctica  
@@ -57,7 +59,7 @@ La parte experimental se centra en predecir la vida útil restante (**RUL**) de 
 ---
 
 ## 📂 Estructura del Repositorio  
-1. 📄 Anteproyecto.pdf
+1. 📂 Anteproyecto.pdf
 2. 📄 TFG.pdf
 3. 📂 Aportacion_practica/
    * LSTM.py
