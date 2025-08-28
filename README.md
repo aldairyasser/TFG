@@ -40,12 +40,12 @@ La parte experimental se centra en predecir la vida útil restante (**RUL**) de 
 
 ![Comparación LSTM vs RF](Resultados/Gráfica.png)  
 
-Se observa que **LSTM supera a Random Forest** en precisión para datos secuenciales, validando la idoneidad de modelos de Deep Learning en contextos temporales.  
+El análisis de los resultados, así como los hallazgos, los desafios a futuro y las conlusiones de las mismas, se encuentran en el TFG.
 
 ---
 
 ## 📂 Estructura del Repositorio  
-1.  📄 Anteproyecto.pdf
+1. 📄 Anteproyecto.pdf
 2. 📄 TFG.pdf
 3. 📂 Aportacion_practica/
    * LSTM.py
@@ -61,45 +61,20 @@ Se observa que **LSTM supera a Random Forest** en precisión para datos secuenci
 
 ## 💿 Dataset Utilizado  
 
-El dataset empleado es **CMAPSS (FD001)**, proporcionado por el **NASA Prognostics Center of Excellence (PCoE)**:  
-🔗 [Descargar CMAPSS Dataset](https://data.nasa.gov/dataset/C-MAPSS-Aircraft-Engine-Simulator-Data/xaut-bemq)  
+El dataset empleado es **CMAPSS**, proporcionado por el **NASA Prognostics Center of Excellence (PCoE)**:  
 
-Contiene series temporales de sensores de motores aeronáuticos bajo diferentes condiciones de operación, hasta el fallo.  
+🔗 [Descargar CMAPSS Dataset](https://data.nasa.gov/dataset/cmapss-jet-engine-simulated-data)  
 
----
-
-## 🎯 Hallazgos del TFG  
-
-- Los **algoritmos clásicos (RF, SVM)** siguen siendo útiles en contextos con datos tabulares limitados.  
-- Los **modelos de Deep Learning (LSTM, CNN)** ofrecen mejores resultados en predicción de RUL, pero requieren mayor potencia computacional.  
-- Los **datasets públicos** (NASA CMAPSS, Paderborn, CWRU, MIMII) son clave para validar modelos en PdM.  
-- La **IA explicable (XAI)** y la **integración con IoT y Edge Computing** aparecen como líneas futuras necesarias.  
-
----
-
-## 🔮 Desafíos futuros  
-
-- **Interoperabilidad y transparencia:** necesidad de IA explicable (XAI).  
-- **Escalabilidad:** arquitecturas híbridas en la nube + edge computing.  
-- **Privacidad:** uso de aprendizaje federado en entornos industriales.  
-- **Ética y empleo:** impacto social y organizacional de la IA en la industria.  
+Contiene series temporales de sensores de motores aeronáuticos bajo diferentes condiciones de operación, hasta el fallo.
 
 ---
 
 ## 👤 Autor  
 
-Este repositorio forma parte del **Trabajo de Fin de Grado en Ingeniería en Sistemas de Información**.  
+Este repositorio forma parte de mi **Trabajo de Fin de Grado en Ingeniería en Sistemas de Información**.  
 
 - **Título:** *Análisis y recopilación de algoritmia de IA en el ámbito del Mantenimiento Predictivo*  
 - **Autor:** *Aldair Yasser Meza Carrasco*
 - **Universidad:** *Politécnica de Alcalá de Henáres*
 - **Año:** *2025* 
-
-
-
-
-
-
-
-
 
