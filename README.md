@@ -7,6 +7,22 @@ El proyecto combina un **estudio teórico-comparativo** de los algoritmos más r
 
 ---
 
+## 📂 Estructura del Repositorio  
+1. 📂 Anteproyecto.pdf
+2. 📄Presentación_TFG.pdf
+3. 📄 TFG.pdf
+4. 📂 Aportacion_practica/
+   * LSTM.py
+   * RF.py 
+   * Comparativa.py
+   * Requisitos_previos.txt
+   * 📂 CMAPSSData/ 
+5. 📂 Resultados/
+    * Tabla.png
+    * Gráfica.png 
+
+---
+
 ## 📖 Descripción  
 
 El objetivo de este TFG es **introducir, analizar, clasificar y comparar diferentes algoritmos de Inteligencia Artificial (IA)** aplicados al Mantenimiento Predictivo, abordando desde una introducción a la IA y al sector de Mantenimiento, así como sus ventajas, limitaciones y dentro de mi tema los datasets más utilizados y casos de aplicación industrial.  
@@ -27,7 +43,7 @@ El dataset empleado es **CMAPSS**, proporcionado por el **NASA Prognostics Cente
 
 Contiene series temporales de sensores de motores aeronáuticos bajo diferentes condiciones de operación, hasta el fallo, para este caso solo usamos ["train_FD001.txt"](/Aportacion_práctica/CMAPSSData/train_FD001.txt).
 
-Las librerias necesarias se encuentran en el los [requisitos_previos.txt](/Aportacion_práctica/requirements.txt)
+***Las librerias necesarias se encuentran en el los [requisitos_previos.txt](/Aportacion_práctica/requirements.txt)***
 
 ---
 
@@ -55,22 +71,7 @@ La parte experimental se centra en predecir la vida útil restante (**RUL**) de 
 
 ![Comparación LSTM vs RF](Resultados/Gráfica.png)  
 
-### ***El análisis de los resultados, así como los hallazgos, los desafios a futuro y las conlusiones de las mismas, se encuentran en el TFG.***
----
-
-## 📂 Estructura del Repositorio  
-1. 📂 Anteproyecto.pdf
-2. 📄 TFG.pdf
-3. 📂 Aportacion_practica/
-   * LSTM.py
-   * RF.py 
-   * Comparativa.py
-   * Requisitos_previos.txt
-   * 📂 CMAPSSData/ 
-4. 📂 Resultados/
-    * Tabla.png
-    * Gráfica.png 
-
+***El análisis de los resultados, así como los hallazgos, los desafios a futuro y las conlusiones de las mismas, se encuentran en el TFG.***
 ---
 
 ## 👤 Autor  
