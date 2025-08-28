@@ -33,12 +33,12 @@ La parte experimental se centra en predecir la vida útil restante (**RUL**) de 
 | **LSTM**       | 24.36  | 37.34  |
 | **Random Forest** | 27.50  | 38.82  |
 
-![Tabla de resultado](TFG/Resultados/Tabla.png)
+![Tabla de resultado](Resultados/Tabla.png)
 
 
 ### 🔎 Gráfica comparativa  
 
-![Comparación LSTM vs RF](TFG/Resultados/Gráfica.png)  
+![Comparación LSTM vs RF](Resultados/Gráfica.png)  
 
 Se observa que **LSTM supera a Random Forest** en precisión para datos secuenciales, validando la idoneidad de modelos de Deep Learning en contextos temporales.  
 
@@ -53,7 +53,7 @@ Se observa que **LSTM supera a Random Forest** en precisión para datos secuenci
 
 │ ├── LSTM.py
 
-│ ├── RF.py
+│ ├── RF.py 
 │ ├── Comparativa.py
 │ ├── Requisitos_previos.txt
 │ └── 📂 CMAPSSData/ 
